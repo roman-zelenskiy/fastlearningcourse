@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fastlearningcourse - Специализация Глубокое обучение</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/styles/styles.css">
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico" />
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="main_menu navbar navbar-expand-lg gap-lg-3 align-items-center">
+                <h1 class="logo m-0 d-flex gap-1 align-items-center">
+                    <a class="navbar-brand" href="#">Fastlearningcourse</a>
+                </h1>
+                <button class="burger_btn collapsed navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse menu_collapse p-0 navbar-collapse justify-content-lg-between"
+                    id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about_sec">О специализации</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#courses">Курсы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#teachers">Преподаватели</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reviews">Отзывы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#register">Регистрация</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">Вопросы</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="register_course_btn mt-4 mt-lg-0 btn btn-primary"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        ЗАБРОНИРОВАТЬ МЕСТО
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <main class="main d-flex align-items-end">
+        <div class="container container_main">
+            <div class="row">
+                <div class="col-12 col-lg-5 col-xl-5">
+                    <div class="content_box d-flex flex-column h-100 justify-content-end">
+                        <p class="text_main m-0">Онлайн-обучение</p>
+                        <h2 class="title_main my-4">Специализация Глубокое обучение</h2>
+                        <p class="text_main_width">Станьте экспертом в области машинного обучения. Освойте основы
+                            глубокого обучения и ворвитесь в мир искусственного
+                            интеллекта. Недавно обновленная версия с самыми современными методами!</p>
+                        <p class="text_main_width">
+                            Специализация Deep Learning - это фундаментальная программа, которая поможет вам понять
+                            возможности, проблемы и
+                            последствия глубокого обучения и подготовить вас к участию в разработке передовых технологий
+                            искусственного интеллекта.
+                        </p>
+                        <button type="button"
+                            class="register_course_btn align-self-start d-none d-lg-inline-block mt-4 btn btn-primary"
+                            data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            ЗАБРОНИРОВАТЬ МЕСТО
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-7 col-xl-7 d-none d-sm-block mt-5 mt-lg-0">
+                    <div class="baner_box d-flex flex-column justify-content-between">
+                        <div class="item_baner_box d-flex  gap-3">
+                            <div>
+                                <svg aria-hidden="true" class="_ufjrdd" style="fill:#164c59" viewBox="0 0 48 48"
+                                    role="img" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" transform="translate(0, 7)"
+                                        d="M0,33.4883721 L48,33.4883721 L48,0 L0,0 L0,33.4883721 Z M2.23255814,31.2835216 L45.7685581,31.2835216 L45.7685581,2.20595294 L2.23255814,2.20595294 L2.23255814,31.2835216 Z M37.9534884,18.5546345 L37.9534884,24.788241 L34.354436,23.3584786 L30.5362598,24.7838735 L30.5362598,18.8590034 C28.305764,17.6498837 26.7906977,15.3076504 26.7906977,12.622016 C26.7906977,8.7009892 30.0194673,5.5121263 33.9894439,5.5121263 C37.9598282,5.5121263 41.1886812,8.7009069 41.1886812,12.622016 C41.1886812,15.0409886 39.9485788,17.251856 37.9534884,18.5546345 Z M33.9894734,7.4680421 C31.1125966,7.4680421 28.7711928,9.7805068 28.7711928,12.6219868 C28.7711928,15.4630998 31.1126571,17.7755049 33.9894734,17.7755049 C34.9006939,17.7755049 35.7772388,17.544058 36.5515083,17.1107151 C38.1883943,16.1858852 39.208186,14.4893549 39.208186,12.6219868 C39.208186,9.7804471 36.8667218,7.4680421 33.9894734,7.4680421 Z M32.2012663,22.1366425 L34.3414624,21.3376682 L36.2702836,22.1039133 L36.2702836,19.3659681 C35.5424465,19.6066591 34.7746492,19.7314207 33.9894734,19.7314207 C33.3801179,19.7314207 32.7805792,19.6561943 32.2012663,19.5094807 L32.2012663,22.1366425 Z"
+                                        role="presentation"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="title">Сертификат, ссылками на который можно делиться с другими людьми</p>
+                                <p class="text">Получите сертификат по завершении</p>
+                            </div>
+                        </div>
+                        <div class="item_baner_box d-flex gap-3 ">
+                            <div>
+                                <svg aria-hidden="true" class="_ufjrdd" style="fill:#164c59" viewBox="0 0 48 48"
+                                    role="img" xmlns="http://www.w3.org/2000/svg">
+                                    <g stroke="none" stroke-width="1" fill-rule="evenodd" role="presentation">
+                                        <g fill-rule="nonzero">
+                                            <g>
+                                                <path
+                                                    d="M0,0 L48,0 L48,37 C48,43.0751322 43.0751322,48 37,48 L11,48 C4.92486775,48 0,43.0751322 0,37 L0,0 Z M46,37 L46,2 L2,2 L2,37 C2,41.9705627 6.02943725,46 11,46 L37,46 C41.9705627,46 46,41.9705627 46,37 Z M10,8 L38,8 L38,10 L10,10 L10,8 Z M34,17 L38,17 L38,21 L34,21 L34,17 Z M26,17 L30,17 L30,21 L26,21 L26,17 Z M18,17 L22,17 L22,21 L18,21 L18,17 Z M34,25 L38,25 L38,29 L34,29 L34,25 Z M26,25 L30,25 L30,29 L26,29 L26,25 Z M18,25 L22,25 L22,29 L18,29 L18,25 Z M10,25 L14,25 L14,29 L10,29 L10,25 Z M26,33 L30,33 L30,37 L26,37 L26,33 Z M18,33 L22,33 L22,37 L18,37 L18,33 Z M10,33 L14,33 L14,37 L10,37 L10,33 Z">
+                                                </path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="title">Гибкий график</p>
+                                <p class="text">Установите гибкие сроки сдачи заданий.</p>
+                            </div>
+                        </div>
+                        <div class="item_baner_box d-flex gap-3">
+                            <div>
+                                <svg aria-hidden="true" class="_ufjrdd" style="fill:#164c59" viewBox="0 0 48 48"
+                                    role="img" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" transform="translate(0, 7)"
+                                        d="M0,33.4883721 L48,33.4883721 L48,0 L0,0 L0,33.4883721 Z M2.23255814,31.2835216 L45.7685581,31.2835216 L45.7685581,2.20595294 L2.23255814,2.20595294 L2.23255814,31.2835216 Z M37.9534884,18.5546345 L37.9534884,24.788241 L34.354436,23.3584786 L30.5362598,24.7838735 L30.5362598,18.8590034 C28.305764,17.6498837 26.7906977,15.3076504 26.7906977,12.622016 C26.7906977,8.7009892 30.0194673,5.5121263 33.9894439,5.5121263 C37.9598282,5.5121263 41.1886812,8.7009069 41.1886812,12.622016 C41.1886812,15.0409886 39.9485788,17.251856 37.9534884,18.5546345 Z M33.9894734,7.4680421 C31.1125966,7.4680421 28.7711928,9.7805068 28.7711928,12.6219868 C28.7711928,15.4630998 31.1126571,17.7755049 33.9894734,17.7755049 C34.9006939,17.7755049 35.7772388,17.544058 36.5515083,17.1107151 C38.1883943,16.1858852 39.208186,14.4893549 39.208186,12.6219868 C39.208186,9.7804471 36.8667218,7.4680421 33.9894734,7.4680421 Z M32.2012663,22.1366425 L34.3414624,21.3376682 L36.2702836,22.1039133 L36.2702836,19.3659681 C35.5424465,19.6066591 34.7746492,19.7314207 33.9894734,19.7314207 C33.3801179,19.7314207 32.7805792,19.6561943 32.2012663,19.5094807 L32.2012663,22.1366425 Z"
+                                        role="presentation"></path>
+                                </svg>
+                            </div>
+                            <div>
+                                <p class="title">Средний уровень</p>
+                                <p class="text">Промежуточные навыки работы с Python: базовое программирование,
+                                    понимание циклов for, операторов if/else, структур
+                                    данных</p>
+                                <p class="text">Базовое понимание линейной алгебры и ML</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="button" class="register_course_btn d-lg-none mt-4 btn btn-primary"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        ЗАБРОНИРОВАТЬ МЕСТО
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section class="about_specialization section" id="about_sec">
+        <div class="container container_about_specialization">
+            <h2 class="title_section text-center">О специализации</h2>
+            <div class="row mt-5 align-items-center g-5 g-lg-0">
+                <div class="col-12 col-lg-6 text-center">
+                    <img class="image_section" src="./assets/img/lady_looking_at_computer.png" alt="">
+                </div>
+                <div class="col-12 col-lg-6">
+                    <h5 class="subtitle_section">Пройти курсы</h5>
+                    <p class="text_section">Специализация Fastlearningcourse — это серия курсов, помогающих в совершенстве
+                        овладеть определенным навыком. Можно сразу
+                        записаться на специализацию или просмотреть курсы, из которых она состоит и выбрать тот, с
+                        которого вы хотите начать.
+                        Подписываясь на курс, который входит в специализацию, вы автоматически подписываетесь на всю
+                        специализацию. Можно
+                        завершить всего один курс, а потом сделать паузу в обучении или в любой момент отменить
+                        подписку. Отслеживайте свои
+                        курсы и прогресс на панели управления учащегося.</p>
+                    <h5 class="subtitle_section">Практический проект</h5>
+                    <p>В каждой специализации есть практический проект, который нужно успешно выполнить, чтобы завершить
+                        специализацию и
+                        получить сертификат. Если для практического проекта в специализации предусмотрен отдельный курс,
+                        прежде чем начать его,
+                        необходимо завершить все остальные курсы.</p>
+                    <h5 class="subtitle_section">Получите сертификат</h5>
+                    <p>Когда вы пройдете все курсы и завершите практический проект, вы получите сертификат, которым
+                        можно поделиться с
+                        потенциальными работодателями и коллегами.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="ptoject_applied_learn section">
+        <div class="container container_ptoject_applied_learn">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <h2 class="title_section">Проект прикладного обучения</h2>
+                    <button type="button"
+                        class="register_course_btn align-self-start d-none d-lg-inline-block mt-4 btn btn-primary"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        ЗАБРОНИРОВАТЬ МЕСТО
+                    </button>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <h5 class="subtitle_section">К концу курса вы сможете:</h5>
+                    <ul class="list">
+                        <li class="text_section">- Строить и обучать глубокие нейронные сети, реализовывать векторные
+                            нейронные сети, определять параметры архитектуры и
+                            применять DL в своих приложениях.</li>
+                        <li class="text_section">- Использовать лучшие практики для обучения и разработки тестовых
+                            наборов и анализа смещения/отклонений для построения
+                            приложений DL, использовать стандартные методы NN, применять алгоритмы оптимизации и
+                            реализовывать нейронные сети в
+                            TensorFlow</li>
+                        <li class="text_section">- Построение и обучение рекуррентных нейронных сетей и их
+                            разновидностей (GRUs, LSTMs), применение РНС для моделирования
+                            языка на уровне символов, работа с NLP и Word Embeddings, использование токенизаторов и
+                            трансформаторов HuggingFace для
+                            распознавания именованных сущностей и ответов на вопросы.</li>
+                    </ul>
+                    <button type="button" class="register_course_btn d-lg-none mt-4 btn btn-primary"
+                        data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        ЗАБРОНИРОВАТЬ МЕСТО
+                    </button>
+                </div>
+                <div class="d-none d-lg-block col-4">
+                    <img class="image_section" src="./assets/img/girl1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="get_skils section">
+        <div class="container container_get_skils">
+            <h2 class="title_section">
+                ЧЕМУ ВЫ НАУЧИТЕСЬ
+            </h2>
+            <ul class="skils_list row g-2 mt-4">
+                <li class="text_section col-12 col-sm-6 col-lg-3">
+                    <p>
+                        Построение и обучение глубоких нейронных сетей, определение ключевых параметров архитектуры,
+                        внедрение векторных
+                        нейронных сетей и глубокого обучения в приложения.
+                    </p>
+                </li>
+                <li class="text_section col-12 col-sm-6 col-lg-3">
+                    <p>
+                        Обучать тестовые наборы, анализировать дисперсию для приложений DL, использовать стандартные
+                        методы и алгоритмы
+                        оптимизации, а также строить нейронные сети в TensorFlow
+                    </p>
+                </li>
+                <li class="text_section col-12 col-sm-6 col-lg-3">
+                    <p>
+                        Создавать CNN и применять ее для задач обнаружения и
+                        распознавания, использовать нейронный перенос стиля для создания
+                        произведений искусства и применять алгоритмы к данным изображений и видео.
+
+                    </p>
+                </li>
+                <li class="text_section col-12 col-sm-6 col-lg-3">
+                    <p>
+                        Построение и обучение RNN, работа с NLP и
+                        вкраплениями слов, использование токенизаторов и трансформаторных моделей
+                        HuggingFace для выполнения NER и ответов на вопросы.
+                    </p>
+                <li class="text_section col-12 col-sm-6 col-lg-3">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="courses section" id="courses">
+        <div class="container container_courses">
+            <h2 class="title_section text-center">Специализация включает несколько 5 курсов</h2>
+            <div class="accordion accordion-flush mt-4" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            1. Нейронные сети и глубокое обучение
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p>В первом курсе специализации "Глубокое обучение" вы изучите фундаментальную концепцию
+                                нейронных сетей и глубокого
+                                обучения.</p>
+                            <p>
+                                К концу курса вы будете знать основные технологические тенденции, способствующие
+                                развитию глубокого обучения; строить,
+                                обучать и применять полностью подключенные глубокие нейронные сети; реализовывать
+                                эффективные (векторизованные)
+                                нейронные сети; определять ключевые параметры архитектуры нейронной сети; и применять
+                                глубокое обучение в собственных
+                                приложени
+                            </p>
+                            <p>
+                                Специализация "Глубокое обучение" - это наша фундаментальная программа, которая поможет
+                                вам понять возможности, проблемы
+                                и последствия глубокого обучения и подготовит вас к участию в разработке передовых
+                                технологий искусственного интеллекта.
+                                Она дает вам возможность получить знания и навыки для применения машинного обучения в
+                                своей работе, повысить уровень
+                                своей технической карьеры и сделать окончательный шаг в мир ИИ.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            2. Совершенствование глубоких нейронных сетей: Настройка гиперпараметров, регуляризация и
+                            оптимизация
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p>Во втором курсе специализации "Глубокое обучение" вы откроете "черный ящик" глубокого
+                                обучения, чтобы понять процессы,
+                                которые определяют производительность и систематически генерируют хорошие результаты.
+                            </p>
+                            <p>
+                                К концу курса вы освоите лучшие методы обучения и разработки тестовых наборов и анализа
+                                смещения/отклонений для создания
+                                приложений глубокого обучения; сможете использовать стандартные методы нейронных сетей,
+                                такие как инициализация,
+                                регуляризация L2 и отсев, настройка гиперпараметров, пакетная нормализация и проверка
+                                градиента; внедрите и примените
+                                различные алгоритмы оптимизации, такие как мини-пакетный градиентный спуск, Momentum,
+                                RMSprop и Adam, и проверите их
+                                сходимость; реализуете нейронную сеть в TensorFlow.
+                            </p>
+                            <p>
+                                Специализация Deep Learning - это наша фундаментальная программа, которая поможет вам
+                                понять возможности, проблемы и
+                                последствия глубокого обучения и подготовить вас к участию в разработке передовых
+                                технологий ИИ. Она дает вам
+                                возможность получить знания и навыки для применения машинного обучения в своей работе,
+                                повысить уровень своей
+                                технической карьеры и сделать окончательный шаг в мир ИИ.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            3. Структурирование проектов машинного обучения
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p>
+                                Во втором курсе специализации "Глубокое обучение" вы откроете "черный ящик" глубокого
+                                обучения, чтобы понять процессы,
+                                которые определяют производительность и систематически генерируют хорошие результаты.
+                            </p>
+                            <p>
+                                К концу курса вы освоите лучшие методы обучения и разработки тестовых наборов и анализа
+                                смещения/отклонений для создания
+                                приложений глубокого обучения; сможете использовать стандартные методы нейронных сетей,
+                                такие как инициализация,
+                                регуляризация L2 и отсев, настройка гиперпараметров, пакетная нормализация и проверка
+                                градиента; внедрите и примените
+                                различные алгоритмы оптимизации, такие как мини-пакетный градиентный спуск, Momentum,
+                                RMSprop и Adam, и проверите их
+                                сходимость; реализуете нейронную сеть в TensorFlow.
+                            </p>
+                            <p>
+                                Специализация Deep Learning - это наша фундаментальная программа, которая поможет вам
+                                понять возможности, проблемы и
+                                последствия глубокого обучения и подготовить вас к участию в разработке передовых
+                                технологий ИИ. Она дает вам
+                                возможность получить знания и навыки для применения машинного обучения в своей работе,
+                                повысить уровень своей
+                                технической карьеры и сделать окончательный шаг в мир ИИ.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsefoure" aria-expanded="false"
+                            aria-controls="flush-collapsefoure">
+                            4. Конволюционные нейронные сети
+                        </button>
+                    </h2>
+                    <div id="flush-collapsefoure" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p>
+                                На четвертом курсе специализации "Глубокое обучение" вы поймете, как развивалось
+                                компьютерное зрение, и познакомитесь с
+                                его интересными приложениями, такими как автономное вождение, распознавание лиц, чтение
+                                радиологических изображений и
+                                многое другое.
+                            </p>
+                            <p>
+                                К концу курса вы сможете построить конволюционную нейронную сеть, включая последние
+                                вариации, такие как остаточные сети;
+                                применить конволюционные сети для задач визуального обнаружения и распознавания;
+                                использовать нейронный перенос стиля
+                                для создания художественных произведений и применить эти алгоритмы к различным
+                                изображениям, видео и другим 2D или 3D
+                                данным.
+                            </p>
+                            <p>
+                                Специализация Deep Learning - это наша фундаментальная программа, которая поможет вам
+                                понять возможности, проблемы и
+                                последствия глубокого обучения и подготовить вас к участию в разработке передовых
+                                технологий искусственного интеллекта.
+                                Она дает вам возможность получить знания и навыки для применения машинного обучения в
+                                своей работе, повысить уровень
+                                своей технической карьеры и сделать окончательный шаг в мир ИИ.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsefive" aria-expanded="false"
+                            aria-controls="flush-collapsefive">
+                            5. Модели последовательности
+                        </button>
+                    </h2>
+                    <div id="flush-collapsefive" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p>
+                                На пятом курсе специализации Deep Learning вы познакомитесь с моделями
+                                последовательности и их захватывающими
+                                приложениями, такими как распознавание речи, синтез музыки, чат-боты, машинный перевод,
+                                обработка естественного языка
+                                (NLP) и многое другое.
+                            </p>
+                            <p>
+                                К концу обучения вы сможете создавать и обучать рекуррентные нейронные сети (РНС) и
+                                такие широко используемые варианты,
+                                как GRU и LSTM; применять РНС для моделирования языка на уровне символов; получить опыт
+                                обработки естественного языка и
+                                вкраплений слов; использовать токенизаторы HuggingFace и трансформаторные модели для
+                                решения различных задач NLP, таких
+                                как NER и ответы на вопросы.
+                            </p>
+                            <p>
+                                Специализация Deep Learning - это фундаментальная программа, которая поможет вам понять
+                                возможности, проблемы и
+                                последствия глубокого обучения и подготовить вас к участию в разработке передовых
+                                технологий ИИ. Она предоставляет вам
+                                возможность сделать окончательный шаг в мир ИИ, помогая получить знания и навыки для
+                                повышения уровня вашей карьеры.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="teachers_sec section" id="teachers">
+        <div class="container container_teachers_sec">
+            <h2 class="title_section text-center">Преподаватели</h2>
+            <div class="teachers_list align-items-center align-items-md-start mt-4 row">
+                <div class="col-12 col-md-4">
+                    <div class="teacher_item  gap-3">
+                        <img class="photo" src="./assets/img/AndrewNg-Headshot.png" alt="">
+                        <div class="mt-2">
+                            <p class="subtitle_section m-1">Andrew Ng</p>
+                            <p class="text_section m-0">Instructor</p>
+                            <p class="opacity-50">Эндрю Нг - основатель компании DeepLearning.AI, генеральный партнер AI
+                                Fund, председатель и соучредитель Fastlearningcourse, а
+                                также адъюнкт-профессор Стэнфордского университета.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="teacher_item  gap-3">
+                        <img class="photo" src="./assets/img/Kian-Katan-copy.png" alt="">
+                        <div class="mt-2">
+                            <p class="subtitle_section m-1">Kian Katanforoosh</p>
+                            <p class="text_section m-0">Senior Curriculum Developer</p>
+                            <p class="opacity-50">Ранее он был главным ученым в Baidu, руководителем команды Google
+                                Brain и соучредителем Fastlearningcourse - крупнейшей в мире
+                                платформы MOOC.
+                                Сейчас Киан Катанфоруш посвящает свое время в основном предпринимательской деятельности,
+                                ища наилучшие способы ускорить
+                                внедрение ответственной практики ИИ в глобальную экономику.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4">
+                    <div class="teacher_item  gap-3">
+                        <img class="photo" src="./assets/img/Younes.png" alt="">
+                        <div class="mt-2">
+                            <p class="subtitle_section m-1">Younes Bensouda Mourri</p>
+                            <p class="text_section m-0">Curriculum developer</p>
+                            <p class="opacity-50">Юнес родился и вырос в Марокко. В настоящее время он преподает
+                                искусственный интеллект на кампусе и онлайн в
+                                Стэнфордском университете. Он работал над курсом №1 Fastlearningcourse: Машинное обучение" и
+                                "Специализация №1: Глубокое обучение.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="start_today get_skils section">
+        <div class="container container_start_today container_get_skils">
+            <h2 class="title_section text-center">
+                Начните обучение сегодня
+            </h2>
+            <ul class="skils_list row g-5 justify-content-center text-center mt-4">
+                <li class="text_section col-12 col-md-4">
+                    <p>
+                        Специализация и сертификаты о прохождении крусов, которыми можно поделиться
+                    </p>
+                </li>
+                <li class="text_section col-12 col-md-4">
+                    <p>
+                        Возможность обучения в комфортном темпе
+                    </p>
+                </li>
+                <li class="text_section col-12 col-md-4">
+                    <p>
+                        Видео и материалы для самостоятельного изучения по курсу
+                    </p>
+                </li>
+                <li class="text_section col-12 col-md-4">
+                    <p>
+                        Оцененные задания с отзывами от коллег
+                    </p>
+                </li>
+                <li class="text_section col-12 col-md-4">
+                    <p>
+                        Оцениваемые тесты с отзывами
+                    </p>
+                </li>
+                <li class="text_section col-12 col-md-4">
+                    <p>
+                        Оцениваемые задания по программированию
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="reviews_sec section" id="reviews">
+        <div class="container container_reviews_sec">
+            <h2 class="title_section text-center">Отзывы</h2>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active text-center" data-bs-interval="10000">
+                        <img src="./assets/img/Ellen_Rich.png" class="photo d-block " alt="...">
+                        <div class="carousel-caption  ">
+                            <h5>— Loreelei G.</h5>
+                            <p class="text_section">Полученные на курсах знания и навыки помогли мне выбраться из
+                                десяти лет профессионального застоя. Благодаря Fastlearningcourse я
+                                наконец-то смотрю на мир по-новому.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center" data-bs-interval="2000">
+                        <img src="./assets/img/Gabriela_Guarnerio.png" class=" photo d-block " alt="...">
+                        <div class="carousel-caption">
+                            <h5>— Ellen R.</h5>
+                            <p class=" text_section"> Я добавляю информацию о пройденных курсах в свой профиль на
+                                LinkedIn и в резюме. Это выделяет меня на фоне других
+                                специалистов.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center">
+                        <img src="./assets/img/Loreelei.png" class="photo d-block " alt="...">
+                        <div class="carousel-caption">
+                            <h5>— Gabriela G.</h5>
+                            <p class=" text_section">В сообществе единомышленников я чувствую себя частью чего-то
+                                большего. До знакомства с Fastlearningcourse онлайн-обучение казалось
+                                мне скучным и изолированным.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chevron-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z" />
+                        </svg>
+                    </span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-chevron-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+                        </svg>
+                    </span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="form_section section" id="register">
+        <div class="container _container_form_section">
+            <div class="form_register">
+                <form action="#">
+                    <div class="d-flex flex-column">
+                        <h2 class="title_section text-center">Успей забронировать свое место в группе</h2>
+                        <div class="input_box">
+                            <input type="text" placeholder="Имя">
+                            <input type="email" placeholder="Email">
+                            <input type="tel" placeholder="Телефон">
+                        </div>
+                        <div class="accept_box mt-4">
+                            <div>
+                                <label>
+                                    <input type="checkbox" required>
+                                    Принять
+                                </label>
+                                <a href="./index_politica.html">Политика конфиденциальности</a>
+                            </div>
+                            <div class="mt-2">
+                                <label>
+                                    <input type="checkbox" required>
+                                    Принять
+                                </label>
+                                <a href="./index_uslovia.html">Условия и положения</a>
+                            </div>
+                        </div>
+                        <button class="register_course_btn align-self-center mt-5 btn btn-primary">ЗАБРОНИРОВАТЬ
+                            МЕСТО</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq_section section" id="faq">
+        <div class="container container_faq_section">
+            <h2 class="title_section text-center">Часто задаваемые вопросы</h2>
+            <div class="accordion accordion-flush mt-5" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Какие правила возврата средств?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p class="text_section">Когда вы оформите подписку, начнется семидневный бесплатный пробный
+                                период, в течение которого подписку можно отменить
+                                без штрафа. По истечении этого срока вы не сможете вернуть средства, но сможете отменить
+                                подписку в любой момент.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Можно ли зарегистрироваться только на один курс?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p class="text_section">
+                                Да! Чтобы начать, нажмите карточку интересующего вас курса и зарегистрируйтесь.
+                                Зарегистрировавшись, вы можете пройти
+                                курс и получить сертификат, ссылкой на который можно делиться с другими людьми. Просто
+                                ознакомиться с содержанием курса
+                                можно бесплатно. При подписке на курс, входящий в специализацию, вы автоматически
+                                подписываетесь на всю специализацию.
+                                Ход учебы можно отслеживать в панели управления учащегося.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            Можно ли получить финансовую помощь?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p class="text_section">
+                                Да. В некоторых программах обучения вы можете подать заявку на получение финансовой
+                                помощи или стипендии, если не можете
+                                оплатить регистрационный взнос. Если для выбранной вами программы предлагается такая
+                                возможность, вы увидите ссылку для
+                                подачи заявки на странице описания.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsefoure" aria-expanded="false"
+                            aria-controls="flush-collapsefoure">
+                            Accordion Item #3
+                        </button>
+                    </h2>
+                    <div id="flush-collapsefoure" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate the
+                            <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
+                            exciting
+                            happening here in terms of content, but just filling up the space to make it look, at least
+                            at first
+                            glance, a bit more representative of how this would look in a real-world application.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsefive" aria-expanded="false"
+                            aria-controls="flush-collapsefive">
+                            Могу ли я пройти курс бесплатно?
+                        </button>
+                    </h2>
+                    <div id="flush-collapsefive" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p class="text_section">
+                                Когда вы регистрируетесь на курс, то можете получить доступ ко всем курсам в
+                                специализации. Кроме того, вы получаете
+                                сертификат о прохождении курса.Просто ознакомиться с содержанием курса можно бесплатно.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapsesix" aria-expanded="false" aria-controls="flush-collapsesix">
+                            Действительно ли это полностью дистанционный курс? Нужно ли мне посещать какие-либо занятия
+                            лично?
+                        </button>
+                    </h2>
+                    <div id="flush-collapsesix" class="accordion-collapse collapse" aria-labelledby="flush-headingThree"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p class="text_section">
+                                Это полностью дистанционный курс, потому вам не нужно ничего посещать. Все лекции,
+                                материалы для самостоятельного
+                                изучения и задания доступны всегда и везде по Интернету и с мобильных устройств.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseseven" aria-expanded="false"
+                            aria-controls="flush-collapseseven">
+                            Получу ли я зачеты в университете за прохождение специализации?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseseven" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <p class="text_section">
+                                Эта специализация не приравнивается к зачету в университетах, однако некоторые вузы
+                                принимают сертификаты на свое
+                                усмотрение. Дополнительную информацию уточняйте в своем деканате.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer section">
+        <div class="container container_footer d-flex flex-column flex-lg-row align-items-lg-center justify-content-between">
+            <h1 class="logo m-0 d-flex gap-1 align-items-center">
+                <a class="navbar-brand" href="#">Fastlearningcourse</a>
+            </h1>
+            <ul class="footer_menu mt-4 m-lg-0 d-flex flex-column gap-2 flex-md-row gap-md-4">
+                <li><a href="#about_sec">О специализации</a></li>
+                <li><a href="#courses">Курсы</a></li>
+                <li><a href="#teachers">Преподаватели</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#register">Регистрация</a></li>
+                <li><a href="#faq">Вопросы</a></li>
+            </ul>
+        </div>
+    </footer>
+
+
+
+
+
+    <div class="modal fade register_course_modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <form action="#" id="register_course_form">
+                    <div class="form_content">
+                        <div class="modal-header justify-content-center">
+                            <h2 class="modal-title" id="exampleModalLabel">Заявка на обучение</h2>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="input_box d-flex flex-column gap-2">
+                                <input type="text" placeholder="Ваше имя">
+                                <input type="email" placeholder="Электронная почта">
+                                <input type="tel" placeholder="Телефон">
+                            </div>
+                        </div>
+                        <div class="modal-footer d-flex gap-3 flex-column align-items-center">
+                            <button class="register_course_btn btn btn-primary">Зарегистрироватся</button>
+                            <div class="accept_box">
+                                <div>
+                                    <label>
+                                        <input type="checkbox" required>
+                                        Принять
+                                    </label>
+                                    <a href="./index_politica.html">Политика конфиденциальности</a>
+                                </div>
+                                <div>
+                                    <label>
+                                        <input type="checkbox" required>
+                                        Принять
+                                    </label>
+                                    <a href="./index_uslovia.html">Условия и положения</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="cookies_accept">
+        <div class="container">
+            <p class="text">Мы используем файлы cookie, чтобы улучшить ваш просмотр, показывать персонализированную рекламу
+                или
+                контент, а также анализировать наш трафик. Нажимая «Принять все», вы соглашаетесь на
+                использование
+                нами файлов cookie.</p>
+            <button class="btn_accept">Принять</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <script src="./assets/script/script.js"></script>
+</body>
+
+</html>
